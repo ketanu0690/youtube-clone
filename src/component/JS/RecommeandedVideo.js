@@ -1,5 +1,5 @@
 import React,{useEffect} from 'react'
-import './RecommeandedVideo.css'
+import '../CSS/RecommeandedVideo.css'
 import VideoCard from './VideoCard'
 import axios from 'axios';
 

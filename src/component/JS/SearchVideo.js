@@ -1,7 +1,9 @@
 import React from 'react'
+
 import TuneOutlinedIcon from '@mui/icons-material/TuneOutlined';
+
 import ChannelRow from './ChannelRow';
-import './SearchVideo.css'; 
+import '../CSS/SearchVideo.css'; 
 import VideoRow from './VideoRow';
 
 const SearchVideo = () => {

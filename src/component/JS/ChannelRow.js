@@ -1,7 +1,7 @@
 import React from "react";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import CheckCircleOutlineRoundedIcon from "@mui/icons-material/CheckCircleOutlineRounded";
-import './ChannelRow.css';
+import '../CSS/ChannelRow.css';
 
 const ChannelRow = ({
   image,

@@ -1,5 +1,5 @@
 import React from "react";
-import "./VideoRow.css";
+import "../CSS/VideoRow.css";
 
 const VideoRow = ({
   views,
@@ -15,9 +15,7 @@ const VideoRow = ({
   <div className="videoRow__text">
     <h3>{title}</h3>
     <p className="videoRow__headline">
-   
-
-   
+  
       {channel} •
       <span className="videoRow__subs">
        <span className="videoRow__subsNumber">

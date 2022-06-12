@@ -1,0 +1,45 @@
+.Upload{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+
+}
+table{
+    /* width: 100%; */
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid orangered;
+    /* padding: 2rem; */
+      overflow: scroll;
+}
+table tr{
+    /* width: 100%; */
+    /* height: 100%; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(39, 20, 13);
+    padding: 2rem;
+    margin: 1rem;
+  
+}
+table tr:hover{
+    background-color: royalblue;
+}
+
+@media screen and (max-width: 600px) {
+    table tr{
+        flex-direction: column;
+    }
+    .Upload{
+        flex-direction: column;
+    }
+}

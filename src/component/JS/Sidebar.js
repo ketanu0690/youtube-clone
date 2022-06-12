@@ -1,5 +1,6 @@
 import React from 'react'
-import './Sidebar.css';
+import '../CSS/Sidebar.css';
+
 import SidebarRow from './SidebarRow' ;
 import HomeIcon from '@mui/icons-material/Home';
 import WhatshotIcon from '@mui/icons-material/Whatshot';
@@ -10,6 +11,8 @@ import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
 import WatchLaterIcon from '@mui/icons-material/WatchLater';
 import ThumbUpAltIcon from '@mui/icons-material/ThumbUpAlt';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+
+
 const Sidebar = () => {
   return (
     <div className='sidebar'>

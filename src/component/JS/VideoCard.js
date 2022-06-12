@@ -1,5 +1,5 @@
 import React from "react";
-import "./VideoCard.css";
+import "../CSS/VideoCard.css";
 // import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 const VideoCard = ({
